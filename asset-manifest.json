@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/QnaMachine/static/css/main.e6c13ad2.css",
-    "main.js": "/QnaMachine/static/js/main.c485f550.js",
+    "main.js": "/QnaMachine/static/js/main.9e9f5c59.js",
     "static/js/787.d03cd4a5.chunk.js": "/QnaMachine/static/js/787.d03cd4a5.chunk.js",
+    "static/media/bck.jpg": "/QnaMachine/static/media/bck.6f2ad5e1d6bc5e600b72.jpg",
     "index.html": "/QnaMachine/index.html",
     "main.e6c13ad2.css.map": "/QnaMachine/static/css/main.e6c13ad2.css.map",
-    "main.c485f550.js.map": "/QnaMachine/static/js/main.c485f550.js.map",
+    "main.9e9f5c59.js.map": "/QnaMachine/static/js/main.9e9f5c59.js.map",
     "787.d03cd4a5.chunk.js.map": "/QnaMachine/static/js/787.d03cd4a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c485f550.js"
+    "static/js/main.9e9f5c59.js"
   ]
 }
