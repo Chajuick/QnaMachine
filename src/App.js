@@ -5,6 +5,7 @@ import { FrontEndData } from './components/QnaData';
 import Home from './pages/Home';
 import RandomQnA from './pages/RandomQnA';
 import SelectQnA from './pages/SelectQnA';
+import Bck from "./assets/imgs/bck.jpg";
 
 // 글로벌 스타일 정의
 const GlobalStyle = createGlobalStyle`
@@ -22,8 +23,8 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     width: 100%;
-    height: 100%;
-    background-image: url("/bck.jpg");
+    height: 100vh;
+    background-image: url(${Bck});
     background-size: cover;
   }
 `;

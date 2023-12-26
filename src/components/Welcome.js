@@ -2,6 +2,7 @@ import { useState } from "react"
 import styled from "styled-components";
 import { Container } from "./Container";
 import { useNavigate } from "react-router-dom";
+import Logo from "../assets/imgs/logo.png";
 
 const ConfirmButton = styled.button`
     margin-top: 4px;
@@ -58,7 +59,7 @@ export default function Welcome({ user, setUser, FrontEndData }) {
         }}
     >
         <div className="logo"> 
-            <img src="/favicon.png" alt="logo" />
+            <img src={Logo} alt="logo" />
             <p>FMQnA</p>
         </div>
         <p className="welcome-mes">
@@ -79,12 +80,6 @@ export default function Welcome({ user, setUser, FrontEndData }) {
             onClick={handleClickSelectQnA}
         >
             질문 선택
-        </ConfirmButton>
-        <ConfirmButton 
-            className="select-btn" 
-            onClick={handleClickStatistics}
-        >
-            통계
         </ConfirmButton>
     </Container>
     </>

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import styled from "styled-components";
 import { Container } from "./Container";
+import Logo from "../assets/imgs/logo.png";
 
 const NameInput = styled.input`
     width: 100%;
@@ -62,7 +63,7 @@ export default function Login({ onRegister }) {
         }}
     >
         <div className="logo"> 
-            <img src="/favicon.png" alt="logo" />
+            <img src={Logo} alt="logo" />
             <p>FMQnA</p>
         </div>
         <p className="welcome-mes">안녕하세요?<br/>이름을 입력해주세요.</p>
